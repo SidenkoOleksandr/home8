@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:300,400,600,700&subset=cyrillic');
+
+.content-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.header-navigation.global-container {
+  background: white;
+}
+
+.contact-me {
+  min-height: 100vh;
+  background: url(../img/hero-image.png) no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+
+.contact-me h1 {
+  color: white;
+  border-left: #e8bf5d solid 2px;
+  max-width: 500px;
+  height: 94px;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 65px;
+  font-weight: 400;
+  letter-spacing: 2.6px;
+  line-height: 45px;
+}
+.about-us .content-container {
+  background: url(../img/background-about-us.png) no-repeat;
+  background-size: cover;
+}
+
+.practis-area.global-container {
+  background: url(../img/background-practis-area.png) no-repeat;
+  background-size: cover;
+}
+.our-attorney .content-container {
+  background: url(../img/background-our-attorney.png) no-repeat;
+  background-size: cover;
+}
+
+.questions .content-container {
+  background: url(../img/background-questions.png) no-repeat;
+  background-size: cover;
+}
+
+.header-navigation ul {
+  padding: 30px 0;
+  list-style: none;
+}
+
+.header-navigation li {
+  display: inline-block;
+}
+
+.header-navigation a {
+  margin-right: 12px;
+
+  padding-bottom: 13px ;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #111111;
+  line-height: 45px;
+  letter-spacing: 0.56px;
+  text-decoration: none;
+
+}
+
+.header-navigation a:hover {
+  border-bottom: #e8bf5d solid 5px;
+}
+
+.logo a {
+
+  margin: 0 320px 0 0;
+  border-style: none;
+}
+
+.contact-me h1 {
+  margin: 0;
+}
+
+/*
+.header-navigation ul {
+  padding: 40px 0;
+  list-style: none;
+}
+
+.header-navigation li {
+  display: inline-block;
+}
+
+.header-navigation li {
+  display: inline-block;
+  margin: 25px 0;
+}
+
+.header-navigation a {
+  padding: 10px 25px;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #31353e;
+  text-decoration: none;
+}
+.header-navigation .logo {
+  margin: 0;
+  padding: 0;
+  float: left;
+
+}
+
+.main-content {
+  background: url(../img/main-background.png) no-repeat;
+  background-size: cover;
+}
+
+
+.main-content h1 {
+  margin: 0 150px auto;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 72px;
+  font-weight: 300;
+  line-height: 48px;
+  text-align: center;
+}
+
+.main-content span{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.main-content ul{
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.main-content li {
+  width: 33.333%;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.main-content .container {
+  padding-top: 350px;
+  padding-bottom: 100px;
+}
+
+.main-content a {
+  color: white;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.main-content p {
+  color: white;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.main-content .container>a {
+  width: 100%;
+  margin: 0 500px auto;
+  color: white;
+  text-align: center;
+}
+
+.news-content {
+  background: #edeff1;
+}
+
+.news-content h2 {
+  margin-top: 0;
+  padding-top: 80px;
+  color: #31353e;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+.news-content ul{
+  margin: 0;
+  padding: 80px 0 100px 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.news-content li {
+  width: 33.333%;
+  text-align: center;
+}
+
+.news-content a {
+   text-decoration: none;
+}
+
+.news-content p {
+  margin: 0 30px;
+  color: #31353e;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.news-content h3 {
+  color: #31353e;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+a.read-more {
+  color: #4e5159;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.login-content {
+  background: url(../img/burger-background.png) no-repeat;
+  background-size: cover;
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
+.login-content h2 {
+  margin: 0;
+  color: white;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+}
+
+.login-content p {
+  margin: 0 300px;
+  margin-bottom: 40px;
+  color: white;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+}
+
+.sing-up-form{
+  text-align: center;
+}
+
+.email-input-wrap {
+  display: inline-block;
+}
+
+.products h2 {
+  color: #191b29;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.products p {
+  color: #191b29;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.right-location {
+  width: 50%;
+  float: right;
+}
+
+.left-location {
+  width: 50%;
+  float: left;
+}
+
+.bottom-navigation {
+  background: url(../img/orange-background.png) no-repeat;
+  background-size: cover;
+}
+
+.bottom-navigation ul{
+  padding: 0;
+  list-style: none;
+}
+
+.bottom-navigation a {
+  text-decoration: none;
+  color: white;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.bottom-navigation nav.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.last-burger-line {
+  padding-top: 90px;
+  padding-bottom: 240px;
+  background: url(../img/burger-background.png) no-repeat;
+  background-size: cover;
+}
+.last-burger-line p {
+  color: white;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 0 260px;
+  text-align: center;
+}
+*/
